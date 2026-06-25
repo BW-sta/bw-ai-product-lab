@@ -1,0 +1,63 @@
+# This public repository is for documentation only.
+# Do not commit source code, secrets, backend workflows, prompts, or internal files.
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+*.secret
+secrets.*
+credentials.*
+service-account*.json
+
+# Common source-code directories
+src/
+app/
+pages/
+components/
+server/
+api/
+lib/
+utils/
+hooks/
+styles/
+public/
+scripts/
+workflow/
+workflows/
+prompts/
+automations/
+database/
+supabase/
+prisma/
+
+# Package and build files
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+node_modules/
+dist/
+build/
+.next/
+.vercel/
+vercel.json
+vite.config.*
+tsconfig.json
+next.config.*
+
+# Internal docs
+internal/
+private/
+strategy/
+pricing/
+customers/
+customer-data/
+user-data/
+operations/
